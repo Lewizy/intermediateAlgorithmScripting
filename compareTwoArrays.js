@@ -24,9 +24,7 @@ function destroyer(arr) {
 	/*creates an array of arguments using 
 	Array.prototype.slice.call() and stores it in the variable args.
 	The slice() method on args starting from the second index, 1,
-	This separates the arguments used for filtering into their own array of args.
-	
-	*/
+	This separates the arguments used for filtering into their own array of args.*/
   return arr.filter(function(val) {
     return !args.includes(val);
   });
